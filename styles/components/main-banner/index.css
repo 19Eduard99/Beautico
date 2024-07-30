@@ -95,12 +95,29 @@
   top: 0;
   right: 0;
   width: 50%;
-  height: 100%;
+  height: 800px;
   border-bottom-left-radius: 30px;
   background-image: url("../assets/images/banner__background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.banner .owl-carousel {
+  padding-top: 200px;
+}
+.banner .owl-carousel .owl-carousel__item {
+  padding: 24px 0;
+}
+.banner .owl-carousel .owl-carousel__item .owl-carousel__link {
+  border-radius: 30px;
+  padding: 24px 28px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #3C2769;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -150,5 +167,8 @@
     width: 100% !important;
     height: 500px !important;
     border-bottom-right-radius: 30px !important;
+  }
+  .owl-carousel {
+    padding-top: 100px !important;
   }
 }
